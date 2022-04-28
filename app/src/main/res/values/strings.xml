@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SENAI-Games</string>
+    <string name="trending_title">New and trending</string>
+    <string name="title_best">Best of the year</string>
+</resources>
