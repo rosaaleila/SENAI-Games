@@ -10,4 +10,5 @@
     <color name="background">#242734</color>
     <color name="primary_color">#424657</color>
     <color name="accent_color">#FFAF29</color>
+    <color name="background_shadow">#4A4949</color>
 </resources>

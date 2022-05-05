@@ -2,4 +2,9 @@
     <string name="app_name">SENAI-Games</string>
     <string name="trending_title">New and trending</string>
     <string name="title_best">Best of the year</string>
+    <string name="the_witcher_3">The Witcher 3</string>
+    <string name="senai_games">SENAI GAMES</string>
+    <string name="search">Search...</string>
+    <string name="title_game_trending">Contra III: The Alien Wars</string>
+    <string name="button_trending">Watch</string>
 </resources>
