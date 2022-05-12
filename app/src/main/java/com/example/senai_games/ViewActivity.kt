@@ -5,19 +5,18 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class SearchActivity : AppCompatActivity() {
+class ViewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_search)
+        setContentView(R.layout.activity_view)
 
-        var botaoNav = findViewById<Button>(R.id.navegar2)
+        var botaoNav = findViewById<Button>(R.id.navegar3)
 
-        val intent = Intent(this, ViewActivity::class.java)
+        val intent = Intent(this, SearchActivity::class.java)
 
         botaoNav.setOnClickListener() {
             startActivity(intent)
         }
-
 
     }
 }

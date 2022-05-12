@@ -590,7 +590,7 @@
     </HorizontalScrollView>
 
     <TextView
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:id="@+id/title_best"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -602,6 +602,7 @@
         app:layout_constraintTop_toBottomOf="@id/h6"/>
 
     <HorizontalScrollView
+        android:paddingTop="10dp"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@id/h3"
@@ -612,7 +613,6 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
             android:paddingStart="0dp"
             android:paddingEnd="40dp">
 
@@ -634,10 +634,99 @@
                 </androidx.cardview.widget.CardView>
 
                 <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/turretroad_bold"
+                    android:text="@string/the_witcher_3"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:cardCornerRadius="20dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/godofwar"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/turretroad_bold"
-                    android:text="@string/the_witcher_3"
+                    android:text="God of War"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/gowr"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/turretroad_bold"
+                    android:text="God of War: Ragnarok"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/gow2005"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/turretroad_bold"
+                    android:text="God of War (2005)"
                     android:textColor="@color/white" />
 
 
@@ -662,94 +751,11 @@
                 </androidx.cardview.widget.CardView>
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/turretroad_bold"
-                    android:text="@string/the_witcher_3"
-                    android:textColor="@color/white" />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:orientation="vertical">
-
-                <androidx.cardview.widget.CardView
                     android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    app:cardCornerRadius="20dp">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/thewitcher"/>
-
-                </androidx.cardview.widget.CardView>
-
-                <TextView
-                    android:layout_width="wrap_content"
+                    android:textAlignment="center"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/turretroad_bold"
-                    android:text="@string/the_witcher_3"
-                    android:textColor="@color/white" />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:orientation="vertical">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    app:cardCornerRadius="20dp">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/thewitcher"/>
-
-                </androidx.cardview.widget.CardView>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/turretroad_bold"
-                    android:text="@string/the_witcher_3"
-                    android:textColor="@color/white" />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:orientation="vertical">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    app:cardCornerRadius="20dp">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/thewitcher"/>
-
-                </androidx.cardview.widget.CardView>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/turretroad_bold"
-                    android:text="@string/the_witcher_3"
+                    android:text="The Witcher 3"
                     android:textColor="@color/white" />
 
 
@@ -844,6 +850,15 @@
 
 
     </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/navegar1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rounded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

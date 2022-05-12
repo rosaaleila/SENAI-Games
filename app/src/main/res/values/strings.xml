@@ -7,4 +7,7 @@
     <string name="search">Search...</string>
     <string name="title_game_trending">Contra III: The Alien Wars</string>
     <string name="button_trending">Watch</string>
+    <string name="title_activity">View Game</string>
+    <string name="title_game">God of war: Ascension</string>
+    <string name="game_desc">This prequel to the very first game in the God of War series and the seventh game in the franchise. It is exclusive for the Sony PlayStation 3 console. The game still uses the ancient Greek mythology as visual inspiration and the primary story source.</string>
 </resources>

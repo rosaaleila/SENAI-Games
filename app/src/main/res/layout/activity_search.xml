@@ -88,24 +88,58 @@
         <androidx.cardview.widget.CardView
             android:layout_marginEnd="50dp"
             android:layout_marginBottom="20dp"
+            app:cardCornerRadius="30px"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            >
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/gow2005"/>
 
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/turretroad_bold"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:text="God of war(2005)"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="20dp"/>
+
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30px"
+            >
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/gowa"/>
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/turretroad_bold"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:text="God of war: Ascension"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="15dp"/>
 
         </androidx.cardview.widget.CardView>
 
@@ -113,49 +147,122 @@
 
             android:layout_marginBottom="20dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30px">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/gowgos"/>
 
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/turretroad_bold"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:text="God of war: Ghost of Spart"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_marginTop="80dp"
+                android:layout_marginStart="10dp"/>
+
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30px">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/gowoc"/>
 
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/turretroad_bold"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:text="God of war: Origins Collection"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_marginTop="80dp"
+                android:layout_marginStart="10dp"/>
+
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30px">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/gowr"/>
 
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/turretroad_bold"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:text="God of war: Ragnarok"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="10dp"/>
+
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30px">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/gow2005"/>
 
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/turretroad_bold"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:text="God of war (2005)"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="10dp"/>
+
         </androidx.cardview.widget.CardView>
 
     </GridLayout>
+
+    <Button
+        android:id="@+id/navegar2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rounded"
+        app:layout_constraintBottom_toTopOf="@+id/h0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

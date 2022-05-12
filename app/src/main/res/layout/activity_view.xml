@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewActivity"
+    android:background="@color/background">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="110dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/h2"
+        app:layout_constraintGuide_percent=".5"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".95"
+        android:id="@+id/h3"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/h1"
+        app:layout_constraintEnd_toStartOf="@id/v2"
+        app:layout_constraintStart_toStartOf="@id/v1"
+        app:layout_constraintTop_toTopOf="@id/h0">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="80dp"
+            app:srcCompat="@drawable/avatar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_activity"
+            android:layout_marginEnd="70dp"
+            android:fontFamily="@font/turretroad_bold"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/navegar3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded"
+            android:drawableTop="@drawable/back"
+            android:paddingTop="7dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        app:layout_constraintBottom_toTopOf="@id/h2"
+        app:layout_constraintEnd_toEndOf="@id/v2"
+        app:layout_constraintStart_toStartOf="@id/v1"
+        app:layout_constraintTop_toBottomOf="@id/h1"
+        android:layout_height="0dp"
+        android:layout_width="0dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gowimg"
+                android:foreground="@drawable/gowimg"
+                />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/h3"
+        app:layout_constraintEnd_toEndOf="@id/v2"
+        app:layout_constraintStart_toStartOf="@id/v1"
+        app:layout_constraintTop_toTopOf="@+id/h2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/turretroad_bold"
+            android:text="@string/title_game"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/game_desc"
+            android:textColor="@color/white"
+            android:fontFamily="@font/turretroad_medium"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/nintendo_icon"/>
+
+                <ImageView
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/windows_client"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/android_os"/>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_marginStart="170dp"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/accent_color"
+                android:text="@string/button_trending"
+                android:fontFamily="@font/turretroad_bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,6 +15,10 @@
         android:layout_width="180sp"
         android:layout_height="wrap_content"
         android:text="@string/senai_games"
+        android:shadowColor="@color/black"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="4"
         android:fontFamily="@font/turretroad_bold"
         android:textSize="50sp"
         android:textColor="@color/white"/>
